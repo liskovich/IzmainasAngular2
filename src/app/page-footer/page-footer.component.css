@@ -1,0 +1,52 @@
+/*
+.bg-primary {
+
+}
+*/
+
+
+.footer {
+  height: 57px;
+/*
+  position: absolute;
+
+  bottom: 0;
+  */
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+
+  background: rgb(13,4,161);
+  background: linear-gradient(90deg, rgba(13,4,161,1) 0%, rgba(52,52,223,1) 48%, rgba(0,155,255,1) 100%);
+}
+
+.footer-bottom {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/*
+.footer .footer-bottom {
+  height: 57px;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
+  width: 100%;
+}
+*/
+/*
+.page-footer {
+  height: 57px;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  width: 100%;
+}
+*/
+p, a {
+  color: white;
+}
+
+

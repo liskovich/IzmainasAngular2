@@ -21,6 +21,7 @@ import { EmailVerificationComponent } from './email/email-verification/email-ver
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MessageDialogComponent } from './dialog/message-dialog/message-dialog.component';
 import { EmailDeleteComponent } from './email/email-delete/email-delete.component';
+import { PageFooterComponent } from './page-footer/page-footer.component';
 
 const appRoutes: Routes = [
   { path: '', component: RecordListComponent },
@@ -40,7 +41,8 @@ const appRoutes: Routes = [
       EmailServiceComponent,
       MessageDialogComponent,
       EmailVerificationComponent,
-      EmailDeleteComponent
+      EmailDeleteComponent,
+      PageFooterComponent
    ],
    imports: [
       BrowserModule,
